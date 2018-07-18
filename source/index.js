@@ -29,7 +29,7 @@ new class extends Client {
 
         this.on('ready', () => {
           bot.user.setActivity(`v.109 -|- g?help -|- bata`, { type: 'PLAYING' });
-            console.log(`Client connected with ${this.guilds.size} guilds, ${this.channels.size} channels, and ${this.users.size} users.`);
+            console.log(`Client connected with ${this.guilds.size} guilds, ${this.channels.size} channels, and ${this.users.size} users!`);
 
 
             if (cache.length) cache.forEach(g => new Giveaway(this, null, g.match, g));
