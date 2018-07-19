@@ -28,7 +28,7 @@ new class extends Client {
         this.lastGiveawayCache = new Collection();
 
         this.on('ready', () => {
-          bot.user.setActivity(`v.104 -|- g?help -|- bata`, { type: 'PLAYING' });
+          bot.user.setActivity(`v.109 -|- g?help -|- bata`, { type: 'PLAYING' });
             console.log(`Client connected with ${this.guilds.size} guilds, ${this.channels.size} channels, and ${this.users.size} users!`);
 
 
