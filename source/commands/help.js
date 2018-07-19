@@ -45,7 +45,7 @@ module.exports = class extends Command {
              },
              {
         name: "Feedback",
-               value: "[Discord Server](https://discord.gg/DrpkVTS)"
+               value: "[Discord Server](https://discord.gg/ZY7DbYJ)"
              },
     ],
     timestamp: new Date(),
